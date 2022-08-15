@@ -1,6 +1,11 @@
 import pygame
 import sys
 
+class Ship(pygame.sprite.Sprite):
+    def __init__(self):
+
+
+
 # Display window
 pygame.init()
 WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
