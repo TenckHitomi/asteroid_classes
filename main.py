@@ -1,9 +1,11 @@
 import pygame
 import sys
 
+
 class Ship(pygame.sprite.Sprite):
     def __init__(self):
-
+        super().__init__
+        self.image = pygame.image.load('../images/background.png').convert_alpha()
 
 
 # Display window
